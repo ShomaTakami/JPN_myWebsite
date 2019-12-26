@@ -1,0 +1,38 @@
+.egg_img {
+  position: absolute;
+  /* border: 1px red solid; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home a {
+  text-decoration: none;
+  color: #a3a3a3;
+}
+#home a:hover {
+  color: black;
+}
+
+.about_menu {
+  position: absolute;
+  font-size: 64px;
+  left: 5%;
+  top: 2%;
+  display: flex;
+}
+.works_menu {
+  position: absolute;
+  font-size: 64px;
+  right: 5%;
+  top: 2%;
+  display: flex;
+}
+.contact_menu {
+  position: absolute;
+  font-size: 64px;
+  left: 5%;
+  bottom: 2%;
+  display: flex;
+  line-height: 60px;
+}
